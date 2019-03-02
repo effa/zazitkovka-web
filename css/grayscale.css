@@ -180,37 +180,6 @@
   margin-bottom: 2rem;
 }
 
-.projects-section {
-  padding: 10rem 0;
-}
-
-.projects-section .featured-text {
-  padding: 2rem;
-}
-
-@media (min-width: 992px) {
-  .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #1d9b6c;
-  }
-}
-
-.projects-section .project-text {
-  padding: 3rem;
-  font-size: 90%;
-}
-
-@media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
-  }
-  .projects-section .project-text hr {
-    border-color: #1d9b6c;
-    border-width: .25rem;
-    width: 30%;
-  }
-}
-
 
 
 .signup-section {
@@ -236,7 +205,7 @@
 }
 
 .subpage {
-  padding: 5rem 0 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .contact-section {
@@ -324,8 +293,10 @@ footer {
 }
 
 .cover-img-kontakt {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/kontakt.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/kontakt.jpg");
+  min-height: 35rem;
+  height: 95vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(55%, rgba(22, 22, 22, 0.6)), to(#161616)), url("../img/kontakt.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.6) 55%, #161616 100%), url("../img/kontakt.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -333,3 +304,28 @@ footer {
 }
 
 
+.info-table > .row {
+    margin-bottom: 15px;
+}
+
+.featured-text {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+#footer-sova {
+    float: left;
+    width: 125px;
+    height: 150px;
+    margin: 0 30px 50px 0;
+}
+
+.contact-wrapper {
+  position: relative;
+}
+
+.contact-content-bottom {
+  position: absolute;
+  bottom: 0;
+}
